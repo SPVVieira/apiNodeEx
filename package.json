@@ -1,0 +1,32 @@
+{
+  "name": "apinodeex",
+  "version": "1.0.0",
+  "description": "A NodeJS API Rest exemple",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPVVieira/apiNodeEx.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "API",
+    "Rest",
+    "MongoDB"
+  ],
+  "author": "Victor Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPVVieira/apiNodeEx/issues"
+  },
+  "homepage": "https://github.com/SPVVieira/apiNodeEx#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.16"
+  }
+}
